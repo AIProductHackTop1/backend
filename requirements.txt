@@ -1,1 +1,9 @@
 wemake-python-styleguide==0.18.0
+opencv-python==4.8.1.78
+dependency-injector==4.41.0
+fastapi==0.108.0
+uvicorn==0.25.0
+python-multipart==0.0.6
+httpx==0.26.0
+omegaconf==2.3.0
+numpy==1.26.4
