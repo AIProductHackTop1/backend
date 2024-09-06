@@ -1,0 +1,10 @@
+classifier_settings:
+  weights_path: 'weights/weights.pt'
+
+app_settings:
+  host: '0.0.0.0'
+  port: 8000
+
+logger_settings:
+  log_level: 'debug'
+  log_dir: 'logs'
