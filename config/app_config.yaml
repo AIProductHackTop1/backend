@@ -1,5 +1,7 @@
 classifier_settings:
   weights_path: 'weights/weights.pt'
+  detection_threshold: 0.5
+  cls_critical_det: {0: 1, 1: 1}
 
 app_settings:
   host: '0.0.0.0'

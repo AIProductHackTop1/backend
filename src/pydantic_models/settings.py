@@ -4,6 +4,8 @@ from omegaconf import OmegaConf
 
 class ClassifierSettings(BaseModel):
     weights_path: str
+    detection_threshold: float
+    cls_critical_det: dict[int, int]
 
 
 class AppSettings(BaseModel):
